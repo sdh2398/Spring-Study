@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c45db033-6df8-476b-a0a2-e55f0f5b56cc" name="Default Changelist" comment="" />
+    <list default="true" id="c45db033-6df8-476b-a0a2-e55f0f5b56cc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -20,13 +23,16 @@
     <session id="-1770668007">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="bat" value="1" />
+          <entry key="gitignore" value="1" />
           <entry key="gradle" value="2" />
           <entry key="gradlew" value="1" />
           <entry key="java" value="2" />
@@ -38,12 +44,13 @@
           <entry key="Bat" value="1" />
           <entry key="Groovy" value="2" />
           <entry key="JAVA" value="2" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="PLAIN_TEXT" value="2" />
           <entry key="Properties" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="gitignore" value="54" />
           <entry key="gradle" value="2" />
           <entry key="java" value="48" />
         </counts>
@@ -52,17 +59,27 @@
         <counts>
           <entry key="Groovy" value="2" />
           <entry key="JAVA" value="48" />
+          <entry key="PLAIN_TEXT" value="54" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/mashup/spring/study/pratice/PraticeApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
               <caret line="9" column="62" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="41" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -314,7 +331,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="6155619083000" />
+        <entry key="$PROJECT_DIR$" value="6155628624000" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/build.gradle" value="2868958643" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="2585518924" />
@@ -524,6 +541,7 @@
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/mashup/spring/study/pratice/PraticeApplication.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -537,6 +555,24 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="mashup-spring-study" type="58d84e3e:PackageViewProjectNode" />
+              <item name="mashup-spring-study_main" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="mashup-spring-study" type="58d84e3e:PackageViewProjectNode" />
+              <item name="mashup-spring-study_main" type="616d4139:PackageViewModuleNode" />
+              <item name="mashup.spring.study.practice" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -560,51 +596,17 @@
               <item name="Spring-Study" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mashup-spring-study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spring-Study" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pratice" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mashup-spring-study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spring-Study" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pratice" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="mashup-spring-study" type="58d84e3e:PackageViewProjectNode" />
-              <item name="mashup-spring-study_main" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="mashup-spring-study" type="58d84e3e:PackageViewProjectNode" />
-              <item name="mashup-spring-study_main" type="616d4139:PackageViewModuleNode" />
-              <item name="mashup.spring.study.practice" type="1f31426a:PackageElementNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538907216770" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538908405026" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -665,7 +667,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -674,7 +676,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -737,6 +739,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="9" column="62" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="41" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
         </state>
       </provider>
     </entry>
