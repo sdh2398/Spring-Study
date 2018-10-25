@@ -16,6 +16,4 @@ script: "./gradlew clean build"
 
 # CI 실행 완료시 메일로 알람
 notifications:
-  email:
-    recipients:
-    - dlehdwns8556@gmail.com
+  slack: dh-dj-spring:XTJXYBfCU3Verwqr9SlgvuaN
