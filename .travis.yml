@@ -21,7 +21,7 @@ notifications:
 before_deploy:
   - zip -r dj-dh-spring *
   - mkdir -p deploy
-  - mv dj-dh-springs.zip deploy/dj-dh-spring.zip
+  - mv dj-dh-spring.zip deploy/dj-dh-spring.zip
 
 
 deploy:
@@ -35,5 +35,5 @@ deploy:
     local_dir: deploy # before_deploy에서 생성한 디렉토리
     wait-until-deployed: true
     on:
-      repo: https://github.com/DH-DJ-SPRING/Spring-Study.git #Github 주소
+      repo: DH-DJ-SPRING/Spring-Study #Github 주소
       branch: master
