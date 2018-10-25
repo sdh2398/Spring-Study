@@ -21,7 +21,7 @@ notifications:
 before_deploy:
   - zip -r dj-dh-spring *
   - mkdir -p deploy
-  - mv dj-dh-springs.zip deploy/dj-dh-spring.zip
+  - mv dj-dh-spring.zip deploy/dj-dh-spring.zip
 
 
 deploy:
