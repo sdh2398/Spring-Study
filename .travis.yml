@@ -17,3 +17,23 @@ script: "./gradlew clean build"
 # CI 실행 완료시 메일로 알람
 notifications:
   slack: dh-dj-spring:XTJXYBfCU3Verwqr9SlgvuaN
+
+before_deploy:
+  - zip -r dj-dh-spring *
+  - mkdir -p deploy
+  - mv dj-dh-springs.zip deploy/dj-dh-spring.zip
+
+
+deploy:
+  - provider: s3
+    access_key_id: $AWS_ACCESS_KEY # Travis repo settings에 설정된 값
+    secret_access_key: $AWS_SECRET_KEY # Travis repo settings에 설정된 값
+    bucket: springboot-webservice-deploy # 6-3-3에서 생성한 S3 버킷
+    region: ap-northeast-2
+    skip_cleanup: true
+    acl: public_read
+    local_dir: deploy # before_deploy에서 생성한 디렉토리
+    wait-until-deployed: true
+    on:
+      repo: https://github.com/DH-DJ-SPRING/Spring-Study.git #Github 주소
+      branch: master
