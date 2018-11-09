@@ -18,7 +18,7 @@ public class PraticeController {
 
     @RequestMapping("/")
     public String index() {
-        return "build passed !!!!";
+        return "CI/CD & Nginx(Reverse-Proxy)";
     }
 
 
